@@ -20,8 +20,6 @@ p {
 
 main {
   display: grid;
-  width: 800px;
-  height: 800px;
   grid-gap: 4px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 5fr;
@@ -36,7 +34,6 @@ main {
 
 section {
     padding: 5px;
-    border-style: solid;
 }
 
 /* CSS Flexbox styling, used for adjusting how content inside section behaves */
@@ -64,13 +61,7 @@ section {
 
 /*----------------- Text & Input styling -----------------*/
 
-/* these are for overwriting default CSS that comes from Roll20 */
-
-.charsheet * {
-  font-family: "serif;";
-}
-
-.charsheet h1{
+.h1{
 	text-align: center;
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: bold;
@@ -79,20 +70,20 @@ section {
 	text-shadow: -1px -1px 2px #777777;
 }
 
-.charsheet h2{
+.h2{
   text-align: center;
   color:  darkred;
 }
-.charsheet h3{
+.h3{
   text-align: center;
 }
 
-.charsheet h4{
+.h4{
   text-align: center;
   color: darkred;
 }
 
-.charsheet h5{
+.h5{
   text-align: center;
   color: darkred;
 }
