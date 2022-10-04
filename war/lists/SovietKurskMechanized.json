@@ -190,7 +190,7 @@
       {"max": 1, "perArmy": true, "from": [546]},
       {"max": 1, "perArmy": true, "from": [552]},
 
-      {"max": 1, "name": "Logistics","from": [560,561,562], "forEach": [501,502,503,504,505,506,507],"name2": "Various"}
+      {"max": 1, "name": "Logistics","from": [560,561,562], "forEach": [501,502,503,504,505,506,507,110,111,20,21,22,23,523,],"name2": "Various"}
 
 
 
