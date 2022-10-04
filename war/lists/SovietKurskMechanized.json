@@ -188,9 +188,9 @@
       {"max": 1, "perArmy": true, "from": [507]},
       {"min": 1, "from": [510]},
       {"max": 1, "perArmy": true, "from": [546]},
-      {"max": 1, "perArmy": true, "from": [552]}
+      {"max": 1, "perArmy": true, "from": [552]},
 
-
+      {"max": 4, "from": [511,512,513,514,515,516], "forEach": [510]}
 
 
       ],
