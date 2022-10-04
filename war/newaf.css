@@ -32,9 +32,6 @@ main {
 
 /*----------------- GENERAL CSS ------------------*/
 
-section {
-    padding: 5px;
-}
 
 /* CSS Flexbox styling, used for adjusting how content inside section behaves */
 .f-col {
