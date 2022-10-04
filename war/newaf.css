@@ -1,0 +1,161 @@
+body {
+	background-color:silver;
+	padding:0;
+	margin:0;
+	color:#404000;
+}
+p {
+	margin-top:5em;
+	font-size:small;
+}
+#main {
+	max-width:98%;
+	width:70em;
+	margin:auto;
+	text-align:center;
+	padding-top:2em;
+}
+
+
+
+main {
+  display: grid;
+  width: 800px;
+  height: 800px;
+  grid-gap: 4px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 5fr;
+  grid-template-areas:"header     	header  "
+                      "alliedheader	axisheader"
+                      "alliedlists  axislists"; 
+}
+
+
+
+/*----------------- GENERAL CSS ------------------*/
+
+section {
+    padding: 5px;
+    border-style: solid;
+}
+
+/* CSS Flexbox styling, used for adjusting how content inside section behaves */
+.f-col {
+  display: flex;
+  flex-direction: column;
+}
+.f-row {
+  display: flex;
+  flex-direction: row;
+  justify-items: all;
+}
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nowrap {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.f-center {
+  align-items: center;
+  justify-content: center;
+}
+
+/*----------------- Text & Input styling -----------------*/
+
+/* these are for overwriting default CSS that comes from Roll20 */
+
+.charsheet * {
+  font-family: "serif;";
+}
+
+.charsheet h1{
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 138.5%;
+	color:white;
+	text-shadow: -1px -1px 2px #777777;
+}
+
+.charsheet h2{
+  text-align: center;
+  color:  darkred;
+}
+.charsheet h3{
+  text-align: center;
+}
+
+.charsheet h4{
+  text-align: center;
+  color: darkred;
+}
+
+.charsheet h5{
+  text-align: center;
+  color: darkred;
+}
+
+/*//////////////////////////////////////////////////////////////////////*/
+img.icon {
+	margin-left:0;
+	margin-right:0.5em;
+	height:2.4em;	
+	vertical-align:middle;
+	border:none;
+}
+
+.header {
+  grid-area: header;
+  background-color: lightgray;
+  flex-direction: center;
+}
+
+.alliedheader {
+  grid-area: alliedheader;
+  background-color: lightgray;
+  flex-direction: center;
+}
+
+.axisheader {
+  grid-area: axisheader;
+  background-color: lightgray;
+  flex-direction: center;
+}
+
+.alliedlists {
+  grid-area: alliedlists;
+  background-color: lightgray;
+  flex-direction: center;
+}
+
+.axislists {
+  grid-area: axislists;
+  background-color: lightgray;
+  flex-direction: center;
+}
+
+
+.list a:hover { 
+	color:orange;
+}
+.list {
+	font-size:small;
+	font-family:sans-serif;
+	width:18em;
+	text-align:center;
+	background-color:#eeeecb;
+	border-top:solid 0.1em black;
+	vertical-align:center;
+	padding:0.33em;
+}
+.list a {
+	text-decoration:none;
+	color:black;
+}
+.list a span {
+	text-align:center;
+	float:left;
+	width:5em;
+}
