@@ -112,25 +112,25 @@
       {"id": 13, "name": "add Medium Truck Tow", "pts": 4},
       {"id": 14, "name": "Horse and Limber Truck", "pts": 4},
 
-      {"id": 20, "name": "3 T-60s (6-r)", "pts": 50},
-      {"id": 21, "name": "3 T-70s (6-r)", "pts": 65},
+      {"id": 20, "name": "3x T-60s (6-r)", "pts": 50},
+      {"id": 21, "name": "3x T-70s (6-r)", "pts": 65},
 
-      {"id": 22, "name": "T-60s (2-r)", "pts": 20},
-      {"id": 23, "name": "T-70s (2-r)", "pts": 25},
+      {"id": 22, "name": "T-60 (2-r)", "pts": 20},
+      {"id": 23, "name": "T-70 (2-r)", "pts": 25},
 
       {"id": 25, "name": "upgrade Jeep to Bren Carrier", "pts": 2},
 
-      {"id": 30, "name": "2 BM-13 Katyushas (2-i)", "pts": 100},
-      {"id": 31, "name": "2 BM-8-13 Katyushas (2-i)", "pts": 120},
+      {"id": 30, "name": "2x BM-13 Katyushas (2-i)", "pts": 100},
+      {"id": 31, "name": "2x BM-8-13 Katyushas (2-i)", "pts": 120},
 
-      {"id": 32, "name": "2 82mm Mortars with 3 crew each (2-i)", "pts": 44},
-      {"id": 33, "name": "3 82mm Mortars with 3 crew each (3-i)", "pts": 66},
+      {"id": 32, "name": "2x 82mm Mortars with 3 crew each (2-i)", "pts": 44},
+      {"id": 33, "name": "3x 82mm Mortars with 3 crew each (3-i)", "pts": 66},
 
-      {"id": 34, "name": "2 120mm Mortars with 3 crew each (2-i)", "pts": 59},
-      {"id": 35, "name": "3 120mm Mortars with 3 crew each (3-i)", "pts": 87},
+      {"id": 34, "name": "2x 120mm Mortars with 3 crew each (2-i)", "pts": 59},
+      {"id": 35, "name": "3x 120mm Mortars with 3 crew each (3-i)", "pts": 87},
 
-      {"id": 36, "name": "2 82mm Mortars (0 BR)", "pts": 54},
-      {"id": 37, "name": "2 120mm Mortars (0 BR)", "pts": 72},
+      {"id": 36, "name": "2x 82mm Mortars (0 BR)", "pts": 54},
+      {"id": 37, "name": "2x 120mm Mortars (0 BR)", "pts": 72},
 
       {"id": 40, "name": "add a Spotter", "pts": 5},
 
@@ -174,10 +174,10 @@
 
 
       {"id": 100, "name": "Command Squad - 3 men (Officer, Mortar Spotter)","pts": 0},
-      {"id": 101, "name": "Rifle Squad - 8 men with 1 LMG","pts": 0},
+      {"id": 101, "name": "Rifle Squad - each with 8 men with 1 LMG","pts": 0},
 
       {"id": 110, "name": "T-34/43 Command - T-34/43 (Officer)","pts": 0},
-      {"id": 111, "name": "T-34/43 Platoon - 3 T-34/43","pts": 0}
+      {"id": 111, "name": "T-34/43 Platoon - each with 3x T-34/43","pts": 0}
 
 
       ],
