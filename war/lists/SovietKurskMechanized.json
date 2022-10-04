@@ -188,10 +188,7 @@
       {"max": 1, "perArmy": true, "from": [507]},
       {"min": 1, "from": [510]},
       {"max": 1, "perArmy": true, "from": [546]},
-      {"max": 1, "perArmy": true, "from": [552]},
-
-      {"max": 1, "name": "Logistics","from": [560,561,562], "forEach": [501,502,503,504,505,506,507],"name2": "Forward HQ Units"},
-      {"max": 4, "name": "Logistics","from": [560,561,562], "forEach": [510],"name2": "Infantry Platoons"}
+      {"max": 1, "perArmy": true, "from": [552]}
 
 
 
