@@ -173,11 +173,11 @@
       {"id": 92, "name": "1st Target Priority (2+)", "pts": 20},
 
 
-      {"id": 100, "name": "Command Squad", "units": "3 men (Officer, Mortar Spotter)","pts": 0},
-      {"id": 101, "name": "Rifle Squad", "units": "8 men with 1 LMG","pts": 0},
+      {"id": 100, "name": "Command Squad - 3 men (Officer, Mortar Spotter)","pts": 0},
+      {"id": 101, "name": "Rifle Squad - 8 men with 1 LMG","pts": 0},
 
-      {"id": 110, "name": "T-34/43 Command", "units": "T-34/43 (Officer)","pts": 0},
-      {"id": 111, "name": "T-34/43 Platoon", "units": "3 T-34/43","pts": 0}
+      {"id": 110, "name": "T-34/43 Command - T-34/43 (Officer)","pts": 0},
+      {"id": 111, "name": "T-34/43 Platoon - 3 T-34/43","pts": 0}
 
 
       ],
